@@ -22,3 +22,4 @@ with open(sys.argv[1]) as f:
 				print("ERROR")
 rev = ''.join(list(reversed(seq)))
 print(rev)
+

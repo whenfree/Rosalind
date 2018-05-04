@@ -21,6 +21,7 @@ RNA2Protein = {
 'GGG':'G','UAG':'Stop','UGA':'Stop','UAA':'Stop'}
 
 def rna2protein(rna):
+    Protein = ''
     for i in range(0,len(rna),3):
         if rna[i:i+3] in RNA2Protein:
             if RNA2Protein[rna[i:i+3]] == 'Stop':

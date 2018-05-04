@@ -22,3 +22,4 @@ with open(sys.argv[1]) as f:
 		line = line.strip()
 		rna = line.replace('T','U')
 		print(rna)
+

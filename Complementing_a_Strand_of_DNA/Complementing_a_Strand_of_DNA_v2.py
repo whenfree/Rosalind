@@ -13,4 +13,3 @@ with open(sys.argv[1]) as f:
 		seq = [pair[i] for i in line]
 rev = ''.join(list(reversed(seq)))
 print(rev)
-

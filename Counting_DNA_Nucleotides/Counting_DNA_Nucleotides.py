@@ -24,4 +24,3 @@ with open (sys.argv[1]) as f:
 		for i in line:
 			dict[i] = dict.get(i,0) + 1
 	print(dict['A'],dict['C'],dict['G'],dict['T'])
-    
